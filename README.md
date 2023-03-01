@@ -1,0 +1,2 @@
+# SemaynehOmarMicroProject
+Microverse trial project
