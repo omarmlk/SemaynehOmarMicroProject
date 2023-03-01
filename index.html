@@ -7,18 +7,39 @@
   </head>
 
   <body>
-    <nav id="navbar">
-      <a href="#navbar">Home</a>
-      <a href="#projects">Projects</a>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand " href="#">Omar Semayneh Project</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#navbar">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <section id="welcome-section">
+    <section id="welcome-section" class="d-flex position-relative justify-content-center">
       <h1>Welcome we are Omar and Semayneh</h1>
     </section>
-    <a href="https://github.com/omarmlk/SemaynehOmarMicroProject" id="profile-link">Profile</a>
-    <section id="projects">
-      <div class="project-tile"></div>
-      <a href=""></a>
+    <section id="projects" class="d-flex justify-content-center w-100">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1677607240655-3bc840ede271?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="project-tile card-title">Project title</h5>
+          <p class="card-text">Description of this Project</p>
+          <a href="#" class="btn btn-primary">Go to Project</a>
+        </div>
+      </div>
     </section>
+    <footer class="text-center text-light text-lg-start fixed-bottom bg-dark text-muted">
+      <div class="text-center text-light p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        The profile of this project in Github:
+        <a class="text-reset text-light fw-bold" id="profile-link" target="_blank" href="https://github.com/omarmlk/SemaynehOmarMicroProject">Profile</a>
+      </div>
+     
+    </footer>
     <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     Hello World, we are software developers!
     
